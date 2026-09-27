@@ -77,7 +77,7 @@ export class HttpClient {
                     Authorization: `Bearer ${this.apiKey}`,
                     'Content-Type': 'application/json',
                     Accept: 'application/json',
-                    'User-Agent': 'mailcraft-node/0.1.0',
+                    'User-Agent': 'mailcraft-node/1.0.0',
                 },
                 body: body !== undefined ? JSON.stringify(body) : undefined,
                 signal: controller.signal,
